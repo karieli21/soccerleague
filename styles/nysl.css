@@ -1,0 +1,151 @@
+.encabezado{
+    position: relative;
+    display: inline-block;
+    width: 990px;
+    height: 445px;
+    
+ }
+
+ .imagen1{
+    background-image: url("../img/design1_image1.jpg");
+    width: 990px;
+    height: 445px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+ }
+
+.titulo{
+    position: absolute;
+    top: 8px;
+    left: 1%;
+    font-size: 55px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px rgb(30, 148, 30);
+}
+  
+
+body{
+
+    background-color: rgb(216, 228, 207);
+    width:950px;
+
+}
+
+.lineacentral{
+    
+    width: 990px;
+    height: 35px;
+    color: white;
+    font-size: 30px;
+    text-align:center;
+    margin-top: 5px;
+   
+}
+
+.centro{
+
+    margin-top:20px;
+    width: 990px;
+    height: 35px;
+    background-color: rgba(41, 128, 0, 0.952);
+
+}
+
+ .logo{
+
+    background-image:url("../img/nysl_logo.png") ;
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+}   
+
+nav{
+
+    float: left;
+    
+}
+
+nav ul a{
+
+    display: block;
+    margin-top: 55px;
+
+}
+
+nav a{
+
+    color: green;
+}
+
+main{
+
+    float: right;
+}
+
+.letra{
+   
+    margin-left: 235px;
+    margin-top: 45px;
+    
+}
+
+.letra1{
+    margin-left: 15px;
+    text-align: justify;
+} 
+
+.lista1{
+
+    list-style-type: square;
+    text-align: justify;
+}
+
+.lista2{
+    list-style-type: decimal;
+    text-align: justify;
+}
+
+.lista3{
+    list-style-type: lower-latin;
+    text-align: justify;
+}
+
+
+.lista4{
+    list-style-type: circle;
+    text-align: justify;
+}
+
+h1,h2,h5{
+
+    text-align: center;
+}
+
+
+table{
+    
+    width: 90%;
+
+}
+
+th, td{
+
+    border: 1.5px solid rgb(48, 129, 62) ;
+    text-align: center;
+
+}
+
+a{
+    color: green;
+}
+
+.boton{
+
+    text-align:center;
+    border: 1px green solid;
+    background-color: rgb(93, 182, 93);
+}
+
+
+

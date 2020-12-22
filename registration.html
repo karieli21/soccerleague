@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+    <head>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="styles/nysl.css">
+        <title> Registration Form</title>
+    </head>
+
+    <body>
+        
+        <header>
+            <div class="encabezado">       
+               <img class="imagen1">
+               <div class="titulo">Northside Youth Soccer League</div>
+           </div> 
+        </header>
+        
+       <div class="logo"></div>
+       <div class="centro">
+            <div class="lineacentral">Registration</div>
+       </div>
+        
+
+        <nav>  
+            <ul>
+              <a href="home.html">Home</a>
+              <a href="about.html">About NYSL</a>
+              <a href="contact.html">Contact</a> 
+              <a href="rules.html">Rules and Policies</a>
+              <a href="gameInfo.html">Game Information</a>
+              <a href="registration.html">Registration Form</a>
+            </ul>
+          
+        </nav> 
+
+        
+        <div class="main">
+            
+                
+            <div class="letra">  
+                                
+                 <h1>Registration Form</h1>
+                
+                    <br> 
+
+                <form action="show_data.html" target="_blank">
+
+                    <!-- nombre -->
+                    <label for="nombre"> Player’s First Name: </label>
+                    <input type="text" id="nombre" name="nombre"></input>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <!-- apellido -->
+
+                    <label for="apellido"> Last Name: </label>
+                    <input type="text" id="apellido" name="apellido"></input>
+                    
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <!-- direccion -->
+
+                    <label for="direccion"> Street Address: </label>
+                    <input type="text" id="direccion" name="direccion"></input>
+                    
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    
+                    <!-- ciudad -->
+
+                    <label for="ciudad"> City: </label>
+                    <input type="text" id="ciudad" name="ciudad"></input>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <!-- codigo postal-->
+
+                    <label for="codigo_postal"> Zip Code: </label>
+                    <input type="number" min="0" max="500" id="codigo_postal" name="codigo_postal"></input>
+
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <!-- fechanacimiento -->
+
+                    <label for="fecha_nacimiento"> Birth Date: </label>
+                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"></input>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <!-- genero -->
+                    
+                    <label for="genero"> Gender: </label>
+
+                    <input type="radio" id="genero" name="genero" value=femenino></input>
+                    <label> Female </label>
+
+                    &nbsp;&nbsp;&nbsp;
+
+                    <input type="radio" id="genero" name="genero" value="masculino"></input>
+                    <label> Male </label>
+                    
+
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <!-- grado -->
+
+                    <label for="grado"> Grade: </label>
+
+                    <input type="radio" id="grado" name="grado" value="pre_escolar"></input>
+                    <label> Pre-School </label>
+
+                    <input type="radio" id="grado" name="grado" value="1st"></input>
+                    <label> 1st </label>
+
+                    <input type="radio" id="grado" name="grado" value="2st"></input>
+                    <label> 2st </label>
+
+                    <input type="radio" id="grado" name="grado" value="3st"></input>
+                    <label> 3st </label>
+
+                    <input type="radio" id="grado" name="grado" value="4st"></input>
+                    <label> 4st </label>
+
+                    <input type="radio" id="grado" name="grado" value="5st"></input>
+                    <label> 5st </label>
+
+
+                    <br><br>
+
+                    <!-------- escuela -------->
+
+                    <div>
+                        <dl>
+                            <b><dt>Which elementary school do you live near?</dt>
+                            <dt><label for="escuela">Closest School:</label></dt></b><br>
+                            
+                            <dt>
+                                <input type="checkbox" id="escuela" name="escuela" value="aj_katzenmaier"></input>
+                                <label> AJ Katzenmaier </label>
+
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="checkbox" id="escuela" name="escuela" value="greenbay"></input>
+                                <label> Greenbay </label>
+                    
+                            </dt>
+
+                            <dt>
+
+                                <input type="checkbox" id="escuela" name="escuela" value="marjorie_p_hart"></input>
+                                <label> Marjorie P Hart </label>
+
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="checkbox" id="escuela" name="escuela" value="north_elementary"></input>
+                                <label> North Elementary </label>
+                            
+                            </dt>
+
+                            <dt>
+
+                                <input type="checkbox" id="escuela" name="escuela" value="howard_a_yeager"></input>
+                                <label for="howard"> Howard A Yeager </label>
+
+                                &nbsp;&nbsp;
+                                <input type="checkbox" id="escuela" name="escuela" value="south_elementary"></input>
+                                <label for="south"> South Elementary </label>
+
+                            </dt>
+                            
+                        </dl>
+
+                    </div>
+
+                    <br>
+
+                    <!----------posicion de juego---------------->
+                    <div>
+
+                        <dl>
+                            <b><dt><label for="posicion_juego"> What position(s) do you normally play? (check all that apply)</label></dt></b>
+                            <br>
+                            <dt>
+                                <input type="checkbox" id="posicion_juego" name="posicion_juego" value="forward"></input>
+                                <label> Forward </label>
+    
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                <input type="checkbox" id="posicion_juego" name="posicion_juego" value="defense"></input>
+                                <label>Defense </label>
+    
+                            </dt>
+    
+                            <dt>
+    
+                                <input type="checkbox" id="posicion_juego" name="posicion_juego" value="midfield"></input>
+                                <label> Midfield </label>
+    
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                <input type="checkbox" id="posicion_juego" name="posicion_juego" value="goalkeeper"></input>
+                                <label> Goalkeeper </label>
+    
+                            </dt>                              
+                        </dl>
+    
+                    </div>
+                    <br>
+
+
+                    <!-------Talla uniforme------->
+                    <div>
+
+                        <dl>
+                            <b><dt><label for="talla_uniforme"> Uniform Size: </label></dt></b><br>
+                                       
+                            <dt>
+                                <input type="radio" id="talla_uniforme" name="talla_uniforme" value="youth_smal"></input>
+                                <label> Youth Smal </label>
+
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                <input type="radio" id="talla_uniforme" name="talla_uniforme" value="medium"></input>
+                                <label> Medium </label>
+                            </dt>
+                                    
+                            <dt>
+                                <input type="radio" id="talla_uniforme" name="talla_uniforme" value="youth_medium"></input>
+                                <label> Youth Medium </label>
+
+                                &nbsp;&nbsp;
+
+                                <input type="radio" id="talla_uniforme" name="talla_uniforme" value="large"></input>
+                                <label> Large </label>
+                            
+                            </dt>
+        
+                            <dt>
+        
+                                <input type="radio" id="talla_uniforme" name="talla_uniforme" value="youth_large"></input>
+                                <label> Youth Large </label>
+
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                <input type="radio" id="talla_uniforme" name="talla_uniforme" value="extra_large"></input>
+                                <label> Extra-Large </label>
+                        
+                            </dt>
+
+
+                            <dt>
+                                <input type="radio" id="talla_uniforme" name="talla_uniforme" value="small"></input>
+                                <label> Small </label>
+                            </dt>   
+                            
+                            
+                        </dl>
+                    </div>
+
+                    <br>
+
+                    <!-----Permiso------->
+
+                    <div>
+
+                        <b><p> Permission to Play</p></b>
+
+                        <p> I, the parent or guardian of the minor registrant, agree that the registrant 
+                        and I will abide by all the rules of the Northside Youth Soccer League (NYSL). 
+                        In recognizing the possibility of physical injury associated with soccer and in 
+                        consideration for the “League” accepting the registrant for its soccer programs 
+                        and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their 
+                        employees and associated personnel and volunteers,including the facilities used for 
+                        practices and games, against any claim by or on behalf of the registrant as a result 
+                        of the registrant’s participation in the programand/orbeing transported to or from NYSL 
+                        sponsored activities,which transportation.
+                        </p>
+                        
+
+                        <p> By writing below, I agree and authorize the foregoing. Also, by typing my name below,
+                        I also acknowledge that I have read the cancellation policy and agree to its terms.
+                        </p>
+
+                        
+                        <label for="firma"> Parent/ GuardianSignature: </label>
+                        <input type="text" id="firma" name="firma"></input>
+
+                        <label for="fecha"> Date </label>
+                        <input type="date" id="fecha" name="fecha"></input>
+                    </div> 
+
+                    <br><br><br>
+
+                    <!-------Boton enviar--------->
+
+                    <div class="boton">
+
+                       <input type="submit" value="Send Form"></input>
+
+                    </div>
+                    <br><br>
+
+
+                </form>
+                                
+            </div>
+        </div>
+
+    </body>
+
+</html>
